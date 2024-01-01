@@ -76,11 +76,11 @@
 
         layer_SYM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans           &trans             &trans       &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp APOSTROPHE   &kp DOUBLE_QUOTES  &trans       &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp DOLLAR       &kp AT_SIGN        &trans       &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp EXCLAMATION  &kp AMPERSAND      &kp PERCENT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans           &trans             &trans       &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans     &trans           &trans             &trans       &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans     &kp APOSTROPHE   &kp DOUBLE_QUOTES  &trans       &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp TILDE  &kp DOLLAR       &kp AT_SIGN        &trans       &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans     &kp EXCLAMATION  &kp AMPERSAND      &kp PERCENT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans             &trans           &trans             &trans       &trans  &trans
             >;
         };
     };
